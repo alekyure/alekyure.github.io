@@ -110,7 +110,7 @@ button:focus, .button:focus{
 /* Link styling */
 a:link {
   cursor: not-allowed;
-  font-family: times;
+  font-family:EB Garamond;
   color: black;
   font-style: normal;
   text-decoration: none;
@@ -186,7 +186,7 @@ a:visited {
     }
       /* Link styling */
     a:link {
-      font-family: times;
+      font-family:EB Garamond;
         color: black;
         /*font-size: 50px;*/
         font-style: normal;
