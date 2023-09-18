@@ -27,7 +27,7 @@ button:focus, .button:focus{
   text-align: right;
 }
 .cartbtn{
-  font-family:times;
+  font-family:EB Garamond;
   display: inline;
   font-size: 1em;
   background: transparent;
@@ -45,7 +45,7 @@ button:focus, .button:focus{
   color: blue !important;
 }
 .viewcart{
-  font-family:times;
+  font-family:EB Garamond;
   font-size: 1em;
   background: transparent;
   text-decoration: none;
@@ -57,7 +57,7 @@ button:focus, .button:focus{
   color: blue !important;
 }
 .cart{
-  font-family:times;
+  font-family:EB Garamond;
   font-size: 1em;
   background: transparent;
   text-decoration: none;
@@ -69,7 +69,7 @@ button:focus, .button:focus{
   margin:0 auto;
 }
 .soldout{
-  font-family:times;
+  font-family:EB Garamond;
   font-size: 1em;
   background: transparent;
   text-decoration: line-through;
