@@ -81,32 +81,6 @@ button:focus, .button:focus{
   margin:0 auto;
 }
 
-/* Mail Chimp Subscription */
-.mailchimp-umbrella{
-  width: 100%;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  padding:.1em;
-  text-align: left;
-}
-.mc-email{
-  border-style: none;
-  text-align: left;
-  font-family: times;
-  font-size: 1em;
-  width: 30%;
-}
-.mc-subscribe{
-  margin: 5px;
-  font-family: times;
-  font-size: 1em;
-  border-style: none;
-  background: transparent;
-}
-.mc-subscribe:hover{
-  text-decoration: underline;
-  color: blue !important;
-}
 /*Announcement Section*/
 .announcement{
   /*color:red;*/
@@ -121,8 +95,8 @@ button:focus, .button:focus{
 .wrapper{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 120px;
 }
 .releaseimagecontainer {
     z-index:0;
