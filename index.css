@@ -32,6 +32,7 @@ button:focus, .button:focus{
   font-size: 1em;
   background: transparent;
   text-decoration: none;
+  text-transform:uppercase;
   color: black;
   border: none;
   margin: 0;
