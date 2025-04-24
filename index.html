@@ -1,127 +1,24 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/peacelogo.png">
-  <link rel="stylesheet" href="index.css">
-  <link rel="shortcut icon" href="images/puppygif.gif">
-  <title>puppy</title>
-
+  <meta charset="UTF-8">
+  <title>Centered Image</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
-
-
 <body>
-  <div class="menu">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-      <input type="submit" name="submit" value="View Cart" class="viewcart">
-    </form>
-  </div>
-  
-
-  <div class="release_container" style="">
-    <br>
-    <br>
-    <br>
-    <div class="wrapper">
-      <!-- tapes !-->
-
-      <div class="PCD6" class="releaseimagecontainer">
-
-        <img src="images/MK - 1.jpg" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="GY8GDLGABF8ZN">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> MK - ' <i>apeiron</i> ' <br><br>SX001 , CDr<br>11USD</span>
-      </div>
-      <div class="MR008" class="releaseimagecontainer">
-
-        <img src="images/æinter - 1.jpg" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="JJDJU7JFA26F6"">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> æinter - ' <i>untitled II</i> ' <br> <br>SX002 , CDr<br>11USD</span>
-      </div>
-
-      
-      <!--
-      <div class="mr07" class="releaseimagecontainer">
-
-        <img src="archive/mr007.png" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="GVGJCRK9TEKC4">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> æinter [MR007]<br><i>CD</i><br>10USD</span>
-      </div>
-
-      <div class="LH-001" class="releaseimagecontainer">
-
-        <img src="archive/alaston.jpeg" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="ZMDPF5EGMR8KQ">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> Alaston Univormu "memory theatre" [LH001]<br><i>CS </i><br>10USD</span>
-      </div>
-
-      <div class="CR-047" class="releaseimagecontainer">
-
-        <img src="archive/cr-047.jpg" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="J4GQ5SCE3T7KQ">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> DJ Valentimes "Imminent Decay" [CR-047 - REPRESS]<br><i>12" </i><br>15USD</span>
-      </div>
-
-      <div class="brkn006" class="releaseimagecontainer">
-
-        <img src="archive/brkn006.jpg" alt="" style="width:90%;">
-        <div class="cart">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="JVZ8JKN6669XQ">
-            <input type="submit" name="submit" value="+ Add to Cart" class="cartbtn" />
-          </form>
-        </div>
-        <span> DJ Valentimes & DJ Spiral [BRKN-006]<br><i>10"</i><br>13USD</span>
-      </div>
---!>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
- <div class="announcement">
-      <span>
-      <br>
-        info@secondindex.org
-      </span>
-      <br>
-      <br>
-    </div>
+  <img src="images/89798465132156841.png" alt="">
 </body>
-
 </html>
