@@ -19,13 +19,14 @@
         img {
             width: 651.6px;       /* Fixed width of 1629px (original image width) */
             height: 601.2px;      /* Fixed height of 1503px (original image height) */
-            margin-top: 8vh;  /* Move the image down about 15% of the viewport height */
+            margin-top: 8vh;  /* Move the image down about 8% of the viewport height */
         }
 
         /* Mobile view adjustments */
-        @media (max-width: 768px) {
+        @media (max-width: 651.6px) {
             img {
-                width: 90%;     /* Scale the image to 80% width on smaller screens */
+                width: 100%; /* Scale the image to 80% width on smaller screens */
+                height: auto;
                 margin-top: 20vh; /* Adjust vertical positioning for smaller screens */
             }
         }
